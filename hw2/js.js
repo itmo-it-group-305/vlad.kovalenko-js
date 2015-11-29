@@ -72,19 +72,16 @@ var str="";
 var h=prompt('Введите h');
 for(var i=1;i<=h; i++){   
   for(var a=0;a<h-i;a++){
-    str+=" ";
+    str+="-";
 }
   for(var b=0;b<i;b++){
     str+="*";  
     if(b!=0){
         str+="*";
-        if(b!=0){
-        str+="*";
-    }
     }
 }
   for(var c=0;c<h-i;c++){
-    str+=" ";    
+    str+="-";    
 }
   str+='\n';
   }
