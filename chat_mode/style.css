@@ -1,0 +1,60 @@
+body {
+    background: orange;
+}
+div.comment {
+    background: white;
+    margin-left: 5%;
+    width: 90%;
+    margin-bottom: 1em;
+    word-break: break-all;
+    
+}
+div.form {
+    padding-top: 2%;
+    padding-left: 35%;
+    padding-right: 35%;
+   
+}
+form {
+ background:rgb(30, 239, 116);;
+}
+textarea {
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 90%;
+    height: 6em;
+    resize: none;
+}
+input {
+margin-left: 5%;
+margin-bottom: 2em;
+    width: 40%;
+    height: 3em;
+ background: rgba(100, 135, 221, 0.76);   
+}
+a {
+    margin-left: 1em; 
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+p {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 0.5em;
+    font-family: cursive;
+    font-size: 0.8em;
+    
+}
+div.comments {
+   height: 400px;
+   overflow-y: scroll;
+}
+img {
+    margin-top: 0.5em;
+}
+p#p {
+    margin: 40%;
+}
+p.hover {
+    display: none;
+}
