@@ -17,10 +17,11 @@ function addCity(e){
     e.preventDefault();
     e.stopPropagation();
     var newCity=document.getElementById('newCity').value;
+    if(newCity){
     //city[city.length+1]=newCity;
     parent=document.getElementById('city');
     child=buildOption(city.length+1, newCity);
-    parent.appendChild(child);
+    parent.appendChild(child);}
     return false;
 }
 elem.addEventListener('click', addCity, false)
