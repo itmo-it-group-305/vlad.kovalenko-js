@@ -1,0 +1,23 @@
+
+.white {
+
+    border-radius: 200px;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    background: white;
+   
+}
+#lights {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 240px;
+    background: black;
+    margin: 2% 40%;
+    
+}
+button {
+    height: 50px;
+    width: 240px;
+    margin: 0% 40%;
+}
