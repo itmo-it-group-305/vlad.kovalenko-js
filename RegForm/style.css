@@ -1,0 +1,73 @@
+div#send{
+    margin-left: 30%;
+    margin-top: 0.5em;
+    
+  width: 150px;
+  height: 20px;
+  color: #000; 
+  text-align: center; 
+  user-select: none; 
+  background: rgb(47, 198, 64); 
+  padding: 0.5em 1.5em; 
+  outline: none; 
+    border: 2px outset white;
+    border-radius: 10px;
+} 
+div#send:hover { background: rgb(0,155,76); } 
+div#send:active {
+    background: rgb(0,105,0);
+    border: 2px inset white;
+} 
+#reg{
+    width: 200px;
+    height: 50px;
+    margin-top: 10%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+#form{
+  margin-left: 40%;
+  margin-right: 40%;  
+  
+
+}
+#close{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;    
+    margin-left: 90%;
+    margin-top: 0.5em;
+    background: rgb(198, 10, 10);
+    
+}
+#close:hover { background: rgb(188,10,10); }
+#close:active { background: rgb(178,10,10); }
+#closed{
+    width: 200px;
+    height: 40px;
+    margin-left: 30%;
+    margin-top: 0.5em;
+    background: rgb(198, 10, 10);
+    border-radius: 10px;
+}
+#closed:hover { background: rgb(188,10,10); }
+#closed:active { background: rgb(178,10,10); }
+form{
+    background-image: url(1.jpg);
+   border: 4px double black;
+    padding-bottom: 2em;
+    
+}
+input{
+    margin-top: 0.1em;
+  margin-left: 33%;  
+}
+label{
+    margin-top: 0.1em;
+    margin-left: 33%;
+}
+#form{
+  margin-left: 30%;
+ padding-bottom: 2em;
+}
+
